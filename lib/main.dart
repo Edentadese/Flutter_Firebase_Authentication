@@ -7,12 +7,12 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: FirebaseOptions(
-        apiKey: "AIzaSyBohGBUGJ2CKicXeUkcLdwycb9we7GeuvI",
+        apiKey: "your api key",
        
-        projectId: "flutter-auth-9df2c",
+        projectId: "Your project id",
         
-        messagingSenderId: "888737584202",
-        appId: "1:888737584202:web:661c38be805a7aa1b182b3",
+        messagingSenderId: "messaging sender id",
+        appId: "your app id",
       
       
       
