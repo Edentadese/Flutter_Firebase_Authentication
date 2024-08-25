@@ -1,7 +1,4 @@
-
-
 import 'package:flutter/material.dart';
-
 
 class FormContainerWidget extends StatefulWidget {
 
@@ -42,10 +39,11 @@ class _FormContainerWidgetState extends State<FormContainerWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      // color: Color.fromARGB(255, 145, 106, 154),
       width: double.infinity,
       clipBehavior: Clip.hardEdge,
       decoration: BoxDecoration(
-        color: Colors.grey.withOpacity(.35),
+        color: Colors.white,
         borderRadius: BorderRadius.circular(10),
       ),
       child: new TextFormField(
@@ -69,7 +67,7 @@ class _FormContainerWidgetState extends State<FormContainerWidget> {
               });
             },
             child:
-            widget.isPasswordField==true? Icon(_obscureText ? Icons.visibility_off : Icons.visibility, color: _obscureText == false ? Colors.blue : Colors.grey,) : Text(""),
+            widget.isPasswordField==true? Icon(_obscureText ? Icons.visibility_off : Icons.visibility, color: _obscureText == false ? Color.fromARGB(255, 145, 106, 154) : Colors.grey,) : Text(""),
           ),
         ),
       ),
