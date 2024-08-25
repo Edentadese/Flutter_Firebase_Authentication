@@ -19,10 +19,10 @@ void main() async {
   );
   await Firebase.initializeApp(
     options: FirebaseOptions(
-       apiKey: "AIzaSyBohGBUGJ2CKicXeUkcLdwycb9we7GeuvI",
-        projectId: "flutter-auth-9df2c",
-        messagingSenderId: "888737584202",
-        appId: "1:888737584202:web:661c38be805a7aa1b182b3",   
+       apiKey: "your api key",
+        projectId: "your project id",
+        messagingSenderId: "your messaging sender id",
+        appId: "your app id",   
       ) 
   );
   runApp(const MyApp());
