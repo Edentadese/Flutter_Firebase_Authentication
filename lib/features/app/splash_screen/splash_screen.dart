@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_application_1/features/user_auth/firebase_auh_implementation/firebase_auth_service.dart';
 import 'package:flutter_application_1/features/user_auth/presentation/pages/login.dart';
+import 'package:flutter_application_1/features/user_auth/presentation/pages/sign_up.dart';
+import 'package:flutter_application_1/features/user_auth/presentation/widgets/form.dart';
+import 'package:stream_video_flutter/stream_video_flutter.dart';
+import 'package:stream_video_flutter/stream_video_flutter.dart' hide User;
 
 class SplashScreeen extends StatefulWidget {
-  final Widget child;
-  const SplashScreeen({super.key, required this.child});
+  // final Widget child;
+  const SplashScreeen({super.key, required LoginPage child});
 
   @override
   State<SplashScreeen> createState() => _SplashScreeenState();
@@ -81,3 +86,6 @@ class _SplashScreeenState extends State<SplashScreeen> {
     );
   }
 }
+
+
+
